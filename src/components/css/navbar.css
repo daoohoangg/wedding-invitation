@@ -1,0 +1,61 @@
+/* element */
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* class */
+.header{
+    padding-top: 3vh;
+}
+.extra-link{
+    text-align: start;
+    padding-left:5vw;
+}
+.name{
+    padding-top: 1vh;
+}
+.name-main h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 5vw;
+    width: 100%;
+}
+.more-infor{
+    padding-top: 1.5vh;
+}
+.text-header{
+    font-size: 1.3vw;
+    gap: 1vh;
+}
+/* banner */
+.banner{
+    margin-top: 2vh;
+}
+.banner-img-left img{
+    width: 100%;
+    padding-top: 12vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.banner-img-center img{
+    width: 70%;
+    padding-top: 5vh;
+}
+.banner-img-right img{
+    width: 100%;
+    padding-top: 12vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.text-banner h1{
+    color: #D99E30;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10vw;
+    
+}
+.banner-description{
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 450;
+}
