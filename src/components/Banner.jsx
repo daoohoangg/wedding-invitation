@@ -17,7 +17,7 @@ function Banner(){
         <div className='text-banner'>
             <h1>10 ∙ 11 ∙ 2024</h1>
         </div>
-        <div className='banner-description'>Hãy tham gia cùng chúng mình khi bắt đầu một hành trình tình yêu, niềm vui và hạnh phúc vĩnh cửu.</div>
+        <div className='banner-description'>Tham gia cùng chúng mình khi bắt đầu một hành trình tình yêu, niềm vui và hạnh phúc vĩnh cửu.</div>
         </div>
     )
     
