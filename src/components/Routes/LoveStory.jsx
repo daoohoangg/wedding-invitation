@@ -1,6 +1,10 @@
+import React from 'react';
+
 function LoveStory(){
     return(
-        <div>LoveStory</div>
+        <div>
+            <h1>LoveStory</h1>
+        </div>
     )
 }
 export default LoveStory;
