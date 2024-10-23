@@ -10,7 +10,7 @@ function Schedule(){
                     <div className='text-schedule text-spec mg8'>
                         LỊCH TRÌNH TRONG NGÀY ĐẶC BIỆT CỦA CHÚNG MÌNH
                     </div>
-                    <div className='text-schedule time-schedule list-schedule'>
+                    <div className='text-schedule list-schedule'>
                         <div className='text-schedule'>
                             <div className='text-schedule'>10:00 AM</div>
                             <div className='text-schedule'>LỄ CƯỚI</div>

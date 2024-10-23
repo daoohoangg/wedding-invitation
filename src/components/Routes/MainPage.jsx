@@ -1,6 +1,7 @@
 import Banner from "../Banner";
 import Schedule from "../Schedule";
 import Location from "../Location";
+import CountDown from "../CountDown";
 
 function MainPage(){
     return(
@@ -8,6 +9,7 @@ function MainPage(){
             <Banner/>
             <Schedule/>
             <Location/>
+            <CountDown/>
         </div>
     )
 }
