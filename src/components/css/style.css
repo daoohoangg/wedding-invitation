@@ -200,3 +200,13 @@ a{
     max-width: 100%;
     height: auto;
 }
+/* FOOTER */
+.Footer{
+    margin-top: 10%;
+}
+.footer-right{
+}
+.footer-head-text{
+    background-color: transparent;
+    position: absolute;
+}
