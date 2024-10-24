@@ -154,9 +154,8 @@ a{
     font-weight: 500;
 }
 .img-story{
-    width: 50%;
+    /* width: 50%; */
     height: 100%;
-    object-fit: cover;
 }
 .image-right{
     width: 5%;
@@ -164,8 +163,40 @@ a{
 .flex-col{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 .flex-row{
     display: flex;
     flex-direction: row;
+}
+.emphasis{
+    position: relative;
+    font-size: 6vw;
+    margin-top: -4%;
+    font-weight: 550;
+    color: rgb(255, 217, 168);
+    font-family:   Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: transparent;
+}
+.p2{
+    margin-top: 5%;
+}
+.p2 h1{
+    color: rgb(247, 90, 90);
+}
+.p2 h3{
+    text-decoration: underline;
+    color: rgb(187, 127, 37);
+}
+.text-mm{
+    font-size: 1.5vw;
+    margin-top: 4%;
+    font-weight: 550;
+}
+.fit{
+    margin-top: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
+    max-width: 100%;
+    height: auto;
 }
