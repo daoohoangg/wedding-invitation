@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Forms from './components/Forms';
 import Header from './components/Header';
 import LoveStory from './components/Routes/LoveStory';
-import AboutFamily from './components/Routes/AboutFamily';
 import Register from './components/Routes/Register';
 import MainPage from './components/Routes/MainPage';
-
+import Schedule from './components/Schedule';
+import AboutFamily from './components/Routes/AboutFamily';
 function App() {
   return (
     <div>

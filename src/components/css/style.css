@@ -132,7 +132,40 @@ a{
 }
 
 /* COUNTDOWN */
-span .text-count-down{
-    color: aliceblue;
+.text-count-down{
+    color: rgb(255, 255, 255);
     background-color: transparent;
+    font-size: 200%;
+    margin-top: 20%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text-count-down-unit{
+    font-size: 60%;
+    background-color: transparent;
+}
+.font-countdown{
+    /* font-size: 200%; */
+}
+/* OUR STORY */
+.mgbt15{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+.img-story{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+.image-right{
+    width: 5%;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
 }

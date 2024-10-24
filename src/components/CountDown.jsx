@@ -38,20 +38,30 @@ function CountDown(){
       }, []);
     
     return(
-        <div className='schedule'>
         <div className='containner'>
-            <img className='image' src="https://raw.githubusercontent.com/daoohoangg/wedding-invitation/refs/heads/main/src/img/IMG_5243%20-%20H%E1%BB%87%20%C4%90%C3%A0o%20Th%E1%BB%8B.jpeg" alt='' />
+          <img className='image' src="https://raw.githubusercontent.com/daoohoangg/wedding-invitation/refs/heads/main/src/img/IMG_5243%20-%20H%E1%BB%87%20%C4%90%C3%A0o%20Th%E1%BB%8B.jpeg" alt='' />      
             <div className='overlay'>
-                <span className='text-count-down'>
-                    <div>{timeLeft.days}</div> 
-                    <div>Days</div> 
-                </span>
-                <span>{timeLeft.hours} Hours </span>
-                <span>{timeLeft.minutes} Minutes </span>
-                <span>{timeLeft.seconds} Seconds</span>
+                <div className='text-schedule center font-countdown'>ĐẾM NGƯỢC ĐẾN NGÀY TRỌNG ĐẠI</div>
+                <div className='text-schedule list-schedule '>
+                  <div className='text-count-down center'>
+                    <div className='text-count-down '>{timeLeft.days}</div> 
+                    <div className='text-count-down-unit'>Ngày</div> 
+                  </div>
+                  <div className='text-count-down center'>
+                    <div className='text-count-down'>{timeLeft.hours}</div> 
+                    <div className='text-count-down-unit'>Giờ</div> 
+                  </div>
+                  <div className='text-count-down center'>
+                    <div className='text-count-down'>{timeLeft.minutes}</div> 
+                    <div className='text-count-down-unit'>Phút</div> 
+                  </div>
+                  <div className='text-count-down center'>
+                    <div className='text-count-down '>{timeLeft.seconds}</div> 
+                    <div className='text-count-down-unit '>Giây</div> 
+                  </div>
+                  </div>
+                </div>
             </div>
-        </div>
-    </div>     
     )
 }
 
