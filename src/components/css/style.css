@@ -207,6 +207,12 @@ a{
 .footer-right{
 }
 .footer-head-text{
+    position: relative;
     background-color: transparent;
-    position: absolute;
+    margin-bottom: -9%;
+    font-size: 5vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+.footer-head-descrip{
+    margin-top: 5%;
 }
