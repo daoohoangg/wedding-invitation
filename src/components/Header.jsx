@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 function Header(){
     return(
         <div className="header row g-0">
-            <div className='col-sm-3 extra-link none'>
-            <Link to="/love-story" className='none underline'><div className='text-header'>CÂU CHUYỆN TÌNH YÊU</div></Link>
-            <Link to="/about-family" className='none underline'><div className='text-header none'>THÔNG TIN VỀ ĐÁM CƯỚI</div></Link>
-            <Link to="/register" className='none underline'><div className='text-header '>THAM GIA CÙNG CHÚNG MÌNH</div></Link>
+            <div className='col-sm-3 extra-link '>
+                <Link to="/love-story" className='none underline'><div className='text-header'>CÂU CHUYỆN TÌNH YÊU</div></Link>
+                <Link to="/about-family" className='none underline'><div className='text-header none'>THÔNG TIN VỀ ĐÁM CƯỚI</div></Link>
+                <Link to="/register" className='none underline'><div className='text-header none'>THAM GIA CÙNG CHÚNG MÌNH</div></Link>
             </div>
             <div className='col-sm-6 name-main'>
                 <Link to="/" className='none'><h2 >ĐÀO HỆ & DUY ANH</h2></Link>

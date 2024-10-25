@@ -14,7 +14,7 @@ function LoveStory(){
                 <div className='col-sm-7 flex-col p2'>
                     <h1>29 ∙ 01 ∙ 2017</h1>
                     <h3>Lời Tỏ Tình </h3>
-                    <div className='text-mm'>Vào ngày đầu năm của 7 năm trước, một khởi đầu mới một năm mới chúng mình có nhau. Yêu nhau, vun vén hạnh phúc và cùng nỗ lực vượt qua những khó khăn trong cuộc sống.</div>
+                    <div className='text-mm text-mm-spec'>Vào ngày đầu năm của 7 năm trước, một khởi đầu mới một năm mới chúng mình có nhau. Yêu nhau, vun vén hạnh phúc và cùng nỗ lực vượt qua những khó khăn trong cuộc sống.</div>
                 </div>
                 <div className='center emphasis'>ĐÀO HỆ & DUY ANH</div>
             </div>  
